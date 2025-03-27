@@ -532,6 +532,11 @@ ul.tour-specs li {
 
   /*  MEDIA QUERIES - DIVS
   -------------------------------------------------- */
+
+  a.link {
+    margin-left: 0px;
+  }
+
   div.caption{
     display: none;
   }
@@ -543,7 +548,7 @@ ul.tour-specs li {
 
   .cutout {
     width: calc(100%);
-    margin-top: 360px;
+    margin-top: 400px;
   }
 
   .cutout.right {
@@ -568,7 +573,7 @@ ul.tour-specs li {
   }
 
   .section.pic-adjust {
-    margin-top: calc(-100% - 370px);
+    margin-top: calc(-100% - 410px);
   }
 
   .higher + .section.pic-adjust {
