@@ -24,18 +24,29 @@
   	<meta name="author" content="Hungry For" />
     <link rel="shortcut icon" href="images/favicon.png" />
   	<link rel="stylesheet" type="text/css" href="/styles/style.css" />
+  </head>
 
-    <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=3739dac5-8293-4872-8e20-3d56ec0b12a5" async></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.get("/elements/footer.html", function(data){
-            $("footer").replaceWith(data);
-        });
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1D99J5SNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B1D99J5SNN');
+  </script>
+
+  <script type="text/javascript" src="https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=3739dac5-8293-4872-8e20-3d56ec0b12a5" async></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+      $.get("/elements/footer.html", function(data){
+          $("footer").replaceWith(data);
       });
-    </script>
+    });
+  </script>
 
-    <body>
+  <body>
 
     <div class="parallax">
 
