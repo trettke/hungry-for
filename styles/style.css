@@ -420,6 +420,17 @@ div.caption.right {
   background-size: 326px;
 }
 
+.section.video {
+  height: 48vw;
+}
+
+.video-cover {
+  position: absolute;
+  height: 48vw;
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+}
+
 
 /* IMAGES
 -------------------------------------------------- */
@@ -448,6 +459,16 @@ div.caption.right {
 .cutout.below {
   margin-top: -600px;
   margin-bottom: 600px;
+}
+
+.section video {
+  position: absolute;
+  width: 100vw;
+  height: 56vw;
+}
+
+.section video.portrait {
+  display: none;
 }
 
 
@@ -591,5 +612,32 @@ ul.tour-specs li {
     margin-top: -220px;
     margin-bottom: 220px;
   }
+
+  .section.video {
+    height: 168vw;
+  }
+
+  .video-cover {
+    position: absolute;
+    height: 168vw;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+  }
+
+  .section video.landscape {
+    display: none;
+  }
+
+  .section video {
+    position: absolute;
+    margin-left: -30px;
+    width: calc(100vw + 60px);
+    height: 190vw;
+  }
+
+  .section video.portrait {
+    display: block;
+  }
+
 
 }
